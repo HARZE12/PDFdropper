@@ -43,17 +43,13 @@ Run the CLI tool with the following options:
 python pdfdropper.py -f original.pdf -o exploit.pdf -url http://your-server/payload.exe
 ```
 
-Example
+## Example
 
 Inject a full-page link into report.pdf that points to https://example.com:
 
+```bash
 python pdfdropper.py -f report.pdf -o report_linked.pdf -url https://example.com
+```
 
 Open *-linked.pdf in any PDF viewer—click anywhere to navigate to your URL.
 
-
-```bash
-python pdfdropper.py -f report.pdf -o report_linked.pdf -url https://example.com
-```bash
-
-Open *-linked.pdf in any PDF viewer—click anywhere to navigate to your URL.
