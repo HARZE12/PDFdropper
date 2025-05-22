@@ -20,7 +20,7 @@ Inject a full-page, invisible link into any PDF so that clicking anywhere in the
 ## 🛠️ Installation
 ```bash
 git clone https://github.com/harze12/pdfdropper.git
-cd pdfdropper
+cd PDFdropper
 python3 -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate.ps1
 pip install -r requirements.txt
