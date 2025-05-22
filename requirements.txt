@@ -1,0 +1,2 @@
+### requirements.txt
+pypdf>=3.0.0
